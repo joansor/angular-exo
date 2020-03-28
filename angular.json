@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "../node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-exo"
+    }
+  },
+  "defaultProject": "angular-exo",
+  "cli": {
+    "analytics": "2f237d8f-4fcc-428e-95ce-17b1eebe7d42"
+  }
 }
