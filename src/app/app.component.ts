@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-exo';
+
+  post: {  
+    title: string,  
+    content: string,  
+    loveIts: number,  
+    created_at: Date
+    } 
 }
