@@ -7,11 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-exo';
-
-  post: {  
-    title: string,  
-    content: string,  
-    loveIts: number,  
-    created_at: Date
+posts=[
+  
+    {  
+      title: 'Cupcake',
+      content: 'Cupcake ipsum dolor sit. Amet pie jelly liquorice gummies lollipop sweet topping. Gummi bears carrot cake jelly lemon drops croissant jelly tootsie roll. Sesame snaps ice cream marzipan jelly candy canes. Sweet chocolate gummies caramels toffee jelly muffin.', 
+      loveIts: 0, 
+      postCreateDate : '23/09/85'
     } 
-}
+]}
