@@ -1,7 +1,7 @@
 <h2>Posts</h2>
 <li class="list-group-item">
     <h3>Post : {{ postTitle }}</h3>
-    <p>Date : {{ postCreateDate }}</p>
+    <p>Date : {{ createDate | async | date: 'yMMMMEEEEd' | uppercase}}</p>
   {{ postContent }}<br />
   <div class="mt-3">
     <app-post-list-item-component>

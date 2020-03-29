@@ -10,7 +10,16 @@ export class PostListComponentComponent implements OnInit {
   @Input() postTitle: string;  
   @Input() postContent: string;
   @Input() postLike: number;
-  @Input() postCreateDate: Date;
+  createDate = new Promise((resolve, reject) => {
+    const date = new Date();
+    
+    setTimeout(
+      () => {
+        resolve(date);
+        
+      }, 2000
+    );
+  });
   constructor() { }
 
   ngOnInit(): void {
